@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:id="@+id/rl_welcome_root"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tv_welcome_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前版本1.0"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:textSize="20sp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:indeterminateDrawable="@anim/image_progress"
+        android:indeterminateDuration="800"/>
+</RelativeLayout>
